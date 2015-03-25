@@ -1,0 +1,155 @@
+/* ==================== bt ==================== */
+.bt{
+	padding: 19px 26px 20px 26px;
+	display: inline-block;
+	line-height:.7em;
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+	width:auto;
+}
+
+/* size ======================= */
+.bt.miniBtn{padding:5px 6px 7px 6px; line-height:.6em; font-size:11px; margin:4px 0;}
+.bt.smBtn{padding:8px 10px 10px 10px; line-height:.6em; font-size:13px; margin:4px 0;}
+.bt.medBtn{padding:1em 1.5em; line-height:.6em; font-size:14px; margin:4px 0;}
+
+/* round edge ======================= */
+.bt.rnd{-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+
+/* blue ======================= */
+.bt.blueBtn {
+	background-color: #0860a3;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2993e4), to(#0860a3));
+	background-image:                                 -moz-linear-gradient(top, #2993e4, #0860a3);
+	background-image:      							   -ms-linear-gradient(top, #2993e4, #0860a3);
+	background-image:      								-o-linear-gradient(top, #2993e4, #0860a3);
+	background-image:         							   linear-gradient(top, #2993e4, #0860a3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2993e4", endColorstr="#0860a3");	
+}
+	
+	
+.bt.blueBtn:hover {
+	color:#fff;
+	background-color:#2993e4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2993e4), to(#2993e4));
+	background-image:                                 -moz-linear-gradient(top, #2993e4, #2993e4);
+	background-image:      							   -ms-linear-gradient(top, #2993e4, #2993e4);
+	background-image:      								-o-linear-gradient(top, #2993e4, #2993e4);
+	background-image:         							   linear-gradient(top, #2993e4, #2993e4);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2993e4", endColorstr="#2993e4");	
+}
+
+/* orange ======================= */
+.bt.orgBtn {
+	background-color: #fa973e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fa973e), to(#fc6e00));
+	background-image:                                 -moz-linear-gradient(top, #fa973e, #fc6e00);
+	background-image:      							   -ms-linear-gradient(top, #fa973e, #fc6e00);
+	background-image:      								-o-linear-gradient(top, #fa973e, #fc6e00);
+	background-image:         							   linear-gradient(top, #fa973e, #fc6e00);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fa973e", endColorstr="#fc6e00");	
+}
+.bt.orgBtn:hover {
+	color:#fff;
+	background-color: #fa973e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fa973e), to(#fa973e));
+	background-image:                                 -moz-linear-gradient(top, #fa973e, #fa973e);
+	background-image:      							   -ms-linear-gradient(top, #fa973e, #fa973e);
+	background-image:      								-o-linear-gradient(top, #fa973e, #fa973e);
+	background-image:         							   linear-gradient(top, #fa973e, #fa973e);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fa973e", endColorstr="#fa973e");	
+}
+
+/* black ======================= */
+.bt.blkBtn {
+	background-color: #777777;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#000000));
+	background-image:                                 -moz-linear-gradient(top, #777777, #000000);
+	background-image:      							   -ms-linear-gradient(top, #777777, #000000);
+	background-image:      								-o-linear-gradient(top, #777777, #000000);
+	background-image:         							   linear-gradient(top, #777777, #000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#777777", endColorstr="#000000");	
+}
+.bt.blkBtn:hover {
+	color:#fff;
+	background-color: #000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+	background-image:                                 -moz-linear-gradient(top, #000000, #000000);
+	background-image:      							   -ms-linear-gradient(top, #000000, #000000);
+	background-image:      								-o-linear-gradient(top, #000000, #000000);
+	background-image:         							   linear-gradient(top, #000000, #000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000");	
+}
+
+/* neutral ======================= */
+.bt.neutral {
+	background-color: #cccccc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#7b7b7b));
+	background-image:                                 -moz-linear-gradient(top, #cccccc, #7b7b7b);
+	background-image:      							   -ms-linear-gradient(top, #cccccc, #7b7b7b);
+	background-image:      								-o-linear-gradient(top, #cccccc, #7b7b7b);
+	background-image:         							   linear-gradient(top, #cccccc, #7b7b7b);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cccccc", endColorstr="#7b7b7b");
+}
+.bt.neutral:hover {
+	color: #fff;
+	background-color: #cccccc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#a5a5a5));
+	background-image:                                 -moz-linear-gradient(top, #cccccc, #a5a5a5);
+	background-image:      							   -ms-linear-gradient(top, #cccccc, #a5a5a5);
+	background-image:      								-o-linear-gradient(top, #cccccc, #a5a5a5);
+	background-image:         							   linear-gradient(top, #cccccc, #a5a5a5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cccccc", endColorstr="#a5a5a5");
+}
+
+/* apply icons ==================== */
+.bt span.sm.left{padding:4px 0 4px 22px; background:transparent url('img/btarrow_sm_l.png') 0 50% no-repeat;}
+.bt span.lg.right{padding:12px 38px 12px 0; background:transparent url('img/btarrow_lg_r.png') 100% 50% no-repeat;}
+.bt span.icon-video{padding-left:38px; background:transparent url('img/icon_video.png') 0 50% no-repeat;}
+.bt span.icon-stop{padding-left:38px; background:transparent url('img/icon_stop.png') 0 50% no-repeat;}
+.bt span.icon-graph{padding-left:25px; background:transparent url('img/icon_graph.png') 0 50% no-repeat;}
+
+
+/* More Info button ==================== */
+.moreInfoIcon{position:relative; cursor:pointer; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 0 0 14px; top:-3px; text-align:center; width:13px; height:13px; color:#fff; font-size:12px; background-color:#4c99e8;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.moreInfoIcon:after{content:"?"}
+.moreInfoIcon:hover{color:#fff; background-color:#7cbafa;}
+.moreInfoIcon.infront{margin:0 8px 0 4px; top:-1px;}
+
+
+/* Question mark button ==================== */
+.question-Wht{position:relative; font-weight:normal; padding:2px; 
+	position:absolute; left:0; top:0;
+    display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#000; font-size:19px; font-weight:bold; line-height:1em;
+	background-color:#888;
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.question-Lg{position:relative; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 3px 0 0; text-align:center; width:13px; height:13px; color:#fff; font-size:13px; 
+	background-color:#fcb200;
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.question-ExLg{position:relative; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#000; font-size:19px; font-weight:bold; line-height:1em;
+	background-color:#ffbd26;
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+span[class*="question-"]:after{content:"?"}
+
+
+

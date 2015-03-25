@@ -1,0 +1,169 @@
+/* ===================================== THEME DARK ===================================== */
+body{background-color:#fff;}
+
+h1, h2, h3{color:#416cb3}
+a{color:#288fe7}
+a:hover, a:active{color:#5bb4ff}
+a:hover span[class*="question-"]{background-color:rgba(255, 255, 255, 0.30)}
+hr{border-bottom:dotted 1px #999}
+.lbcontent h2{border-bottom:solid 1px #ccc;}
+.smallertxt{color:#555}
+.lbcontent h2{color:#1974b9}
+footer{color:#777}
+footer a{color:#288fe7}
+footer a:hover{color:#5bb4ff}
+
+section{background:#fff}
+header{background-color:#f5f5f5; border-bottom:solid 1px #ddd}
+#home{background:#fff url('img/img_home.jpg') 100% 0 no-repeat;}
+#home .action{background-image: url("img/mask_blk.png")}
+#about .infoblock{color:#333}
+#about .infoblock .label h2{color:#555}
+#about .infoblock{background-color:#fff; border-bottom:solid 1px #ccc;}
+#about .infoblock ul{margin-top:6px; list-style-image: url('img/bullet_check.png')}
+
+form select{
+    padding-right:50px;
+    background-color:#f5f5f5 !important;
+    border:solid 1px #ccc !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-image: url('img/select_arrow_blk.png');
+    background-repeat:no-repeat;
+    background-position:99% 50%;
+}
+form select:hover{background-color:#f9f9f9 !important}
+
+
+/* ============= MODELER ============== */
+#modeler .container{background-image:url('img/bgtile_wht.png')}
+#modeler form input,
+#modeler form select,
+#modeler label,
+#modeler form .inputtail,
+#modeler form li .currency:before{color:#333}
+#modeler form h4.flowMessage{background-color:rgba(0, 0, 0, 0.12)}
+#modeler form h4.flowMessage a:hover, .flowMessage a:active{color:#5bb4ff}
+#modeler form h4.flowMessage a:hover span[class*="question-"]{background-color:#5bb4ff}
+#modeler form li{border-top:1px #ccc solid}
+#modeler form input{height:28px}
+#modeler form select{height:31px;}
+#modeler form input[type='text']{border:solid 1px #ccc; font-weight:bold; background-color:#f5f5f5}
+#modeler form input:hover{background:#f9f9f9}
+#modeler form li#output .outputwrapper .outputblock p{color:#999}
+
+#modeler form input[readonly='readonly']{padding:0; margin-top:-12px; width:auto; max-width:60px; background:none; border:0;}
+#modeler form input[readonly='readonly']:hover{background:none;}
+
+#modeler form li#output .outputwrapper .outputblock.head{color:#000}
+#modeler form li#output .outputwrapper .outputblock.head p{color:#52b200;}
+#modeler form li#output .outputwrapper .outputdetail .outputblock{color:#555}
+
+/*#modeler #output-graph{background: transparent url('img/sample_graph_theme_dark.png') 100% 50% no-repeat}*/
+
+#modeler .formfooter{border-top:solid 1px #bbb; background-color:#eee}
+#modeler .formfooter .modeler-info p{color:#333;}
+#modeler .formfooter .modeler-info div a{}
+#modeler .formfooter .modeler-info div a:hover{}
+#modeler .formfooter .modeler-info div a:hover span[class*="question-"]{background-color:#5bb4ff} 
+
+#modeler .videobar{background-color:#333}
+#modeler .videobar:hover{background-color:#444}
+#modeler .videobar h3{color:#48b0ff}
+#modeler .videobar h3 span{color:#fff}
+
+/* =========== Determine Tax Rate Form ============ */
+#determineTaxBracket form li select{background-color:#fff; border:1px solid #ccc}
+#determineTaxBracket #rate{color:#5fba04; background-color:transparent}
+
+/* =========== TILE ========== */
+.tile a{
+    border:solid 1px #ccc;
+	background-color: #dddddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+	background-image:                                 -moz-linear-gradient(top, #ffffff, #dddddd);
+	background-image:      							   -ms-linear-gradient(top, #ffffff, #dddddd);
+	background-image:      								-o-linear-gradient(top, #ffffff, #dddddd);
+	background-image:         							   linear-gradient(top, #ffffff, #dddddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#dddddd");	
+}
+.tile a:hover{
+	background-color: #eeeeee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#eeeeee));
+	background-image:                                 -moz-linear-gradient(top, #eeeeee, #eeeeee);
+	background-image:      							   -ms-linear-gradient(top, #eeeeee, #eeeeee);
+	background-image:      								-o-linear-gradient(top, #eeeeee, #eeeeee);
+	background-image:         							   linear-gradient(top, #eeeeee, #eeeeee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeeeee", endColorstr="#eeeeee");	
+}
+.tile.blue a{
+	border:solid 1px #5ba9e5;
+	background-color: #137dcf;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2993e4), to(#0860a3));
+	background-image:                                 -moz-linear-gradient(top, #2993e4, #0860a3);
+	background-image:      							   -ms-linear-gradient(top, #2993e4, #0860a3);
+	background-image:      								-o-linear-gradient(top, #2993e4, #0860a3);
+	background-image:         							   linear-gradient(top, #2993e4, #0860a3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2993e4", endColorstr="#0860a3");	
+}
+.tile.blue a:hover {
+	background-color: #2993e4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2993e4), to(#2993e4));
+	background-image:                                 -moz-linear-gradient(top, #2993e4, #2993e4);
+	background-image:      							   -ms-linear-gradient(top, #2993e4, #2993e4);
+	background-image:      								-o-linear-gradient(top, #2993e4, #2993e4);
+	background-image:         							   linear-gradient(top, #2993e4, #2993e4);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2993e4", endColorstr="#2993e4");	
+}
+.tile .content{background:transparent url("img/p-arrow-gry.png") 100% 100% no-repeat;}
+.tile.blue .content{background:transparent url("img/p-arrow-wht.png") 100% 100% no-repeat;}
+.tile .content h3{color:#000}
+.tile .content p{color:#000}
+.tile.blue h3{color:#fff}
+.tile.blue p{color:#c3e2fa}
+
+/*=============== SLIDER MOD =============== */
+.slider-ui{width:240px; margin:14px 8px 12px 8px;}
+.ui-slider .ui-slider-handle{height:1.5em; width:1.5em;}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    cursor: pointer;
+    outline:0;
+    margin-top:-5px;
+    border-width:5px; border-color:#aaa; background:#82e81c; /* 6cd306 2993e4*/
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    border-radius: 100%;
+}
+
+.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover{background:#9ff747;}
+
+.ui-widget-content{
+    border-width:1px; background:#f5f5f5;
+    border-color:#ccc;
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0; 
+    border-radius: 0;    
+}
+.ui-widget-content:hover{ background:#f9f9f9}
+
+/* ============ Question mark button ============== */
+.question-Wht{position:relative; font-weight:normal; padding:2px; 
+	position:absolute; left:0; top:0;
+    display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#eee; font-size:19px; font-weight:normal; line-height:1.1em;
+	background-color:#288fe7;
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.question-ExLg{position:relative; font-weight:normal; padding:2px; 
+	display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#eee; font-size:19px; font-weight:normal; line-height:1.1em;
+	background-color:#288fe7;
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+@media only screen and (max-width: 780px ) {
+	#home{background:#fff url("img/tile_slash.png") 0 -20px repeat-x}
+}

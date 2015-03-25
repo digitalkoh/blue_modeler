@@ -1,0 +1,263 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup{display: block}
+
+html{font-size:100%}
+body{font-family:arial, verdana, sans-serif;}
+ol, ul{list-style: none}
+h1, h2, h3{padding:0; line-height: 1.1em; font-weight:normal} /*font-family: 'Raleway', sans-serif; */
+h1{font-size:38px;}
+h2{font-size:28px}font-size:24px; 
+h3{font-size:18px}
+
+a{text-decoration:none}
+a:hover, a:active{text-decoration:none; outline:0;}
+hr{border:0;}
+table{border-collapse:collapse; border-spacing:0}
+
+.expanddiv .showhide{display:none;}
+.container.clearfix{display: block;}
+.clearfix{display: inline-block;}
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clear{clear:both;}
+.hide{display:none;}
+.fl{float:left;}
+.txt-up20p{font-size:120%;}
+.smalltxt{font-size:.9em !important;}
+.smallertxt{font-size:.85em !important;}
+.lbcontent h2{font-size:26px; font-weight:bold; margin-bottom:5px; padding-bottom:3px;}
+.lbcontent p{font-size:.9em; line-height:1.3em;}
+.lbcontent ul{margin:18px 0;}
+.lbcontent ul li{font-size:.9em; list-style:disc; margin:12px 0 0 24px;}
+
+.noborder{border:0 !important}
+.noborder-top{border-top:0 !important}
+.noborder-bottom{border-bottom:0 !important}
+
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{margin-bottom:20px}
+.mb25{margin-bottom:25px}
+.mb30{margin-bottom:30px}
+.mb35{margin-bottom:35px}
+.ml5{margin-left:5px}
+.ml10{margin-left:10px}
+.ml15{margin-left:15px !important}
+
+.w25{width:25%;}
+.w30{width:30%;}
+.w50{width:50%}
+.w75{width:75%}
+.w100{width:100%}
+.grid{position:relative; margin:auto; max-width:980px;}
+.col{float:left;}
+
+/* desktop margin */
+.dt-mr8{margin-right:8px}
+.dt-ml8{margin-left:8px}
+.dt-mr4{margin-right:4px}
+.dt-ml4{margin-left:4px}
+
+#wrapper{}
+section{position:relative; margin:0 auto; clear:both; float:none;}
+.container{position:relative; max-width:1000px; margin:auto; padding:0;}
+header{position:relative; margin:0 auto; clear:both; float:none;}
+header .container{padding:6px 24px;}
+
+#home{}
+#home .intro{width:50%; margin-bottom:12px;}
+#home .intro h1{font-size:30px; padding:24px 0 8px 0;}
+#home .intro p{line-height:1.2em; padding-bottom:18px;}
+#home .action{padding:24px}
+
+#about .container{padding:0;}
+#about .infoblock{font-size:.9em; margin-top:1px; padding:24px}
+#about .infoblock ul li{margin-left:50px; padding:0;}
+#about .infoblock .label h2{font-size:1.6em;}
+#about .infoblock .info p{line-height:1.4em; padding-top:6px;}
+
+footer{margin-top:10px; font-size:12px;}
+footer .container{position:relative; max-width:1000px; margin:0 auto; clear:both; float:none;}
+footer #devby{margin-top:10px}
+footer #copyright{margin-top:4px}
+footer ul{float:right;}
+footer ul li{display:inline; margin-left:12px;}
+
+form input, form select{padding-left:3px; font-size:100%;}
+
+#modeler .container{padding:0 2px 0 2px;}
+#modeler form{font-size:.9em; min-height:300px; position:relative}
+#modeler form h4.flowMessage{font-weight:normal; font-size:1em; margin-top:1px; padding:14px 18px;}
+#modeler form label{font-size:1em; display:inline-block; padding:3px 0}
+#modeler form label.forReadonly{padding:0 8px 0 0; float:left; margin-top:3px;}
+#modeler form li{position:relative; width:auto; margin-top:1px; padding:18px 18px 22px 18px}
+#modeler form li li{background:none;}
+#modeler form li .ili a{font-size:90%;}
+#modeler form li .currency:before{font-size:110%; font-weight:bold; content:"$"}
+
+#modeler form input[readonly='readonly']{padding:0; margin-top:-12px; width:auto; max-width:60px; background:none; border:0;}
+#modeler form input[readonly='readonly']:hover{background:none;}
+#modeler form li.dualinput label{float:left; margin-right:12px; line-height:2em;}
+#modeler form li.dualinput label:after{content:":"}
+#modeler form li.dualinput .ili input{max-width:60px;}
+#modeler form li#output{position:relative;}
+#modeler form li#output .outputwrapper .outputblock div{font-size:1em;}
+#modeler form li#output .outputwrapper .outputblock.head div{font-size:3.5em; font-weight:bold; padding:0 0 12px 0;}
+#modeler form li#output .outputwrapper .outputblock p{font-size:.9em}
+#modeler form li#output .outputwrapper .outputblock.head p{font-size:1em; padding:0;}
+#modeler form li#output .output-top{margin:0 24px 28px 0; float:left;}
+
+#modeler #output-graph{text-align:center; padding:0 24px 12px 24px}
+#modeler #output-graph img{max-width: 100%}
+
+#modeler form #model-output-cont{float:left; padding:0;}
+#modeler form #model-output-earning,
+#modeler form #model-output-taxsavings{float:left; padding-left:38px; background: transparent url('img/plus.png') 10px 50% no-repeat}
+
+#modeler form li#output #summary li{padding:0;}
+#modeler form li#output #summary li h3{font-weight:bold;}
+#modeler form li#output #summary li span{font-weight:bold;}
+#modeler form .flowgroup{min-width:100%;}
+
+#modeler .videobar{
+    display:block;
+    z-index:99;
+	position:absolute; right:12px; top:84px;
+    padding:26px 26px 26px 108px;
+    background-color:rgba(0, 0, 0, 0.63);
+    -webkit-border-radius: 45px; -moz-border-radius: 45px; border-radius: 45px;
+    background-image: url('img/icon_play.png');
+    background-repeat:no-repeat;
+    background-position: 28px 50%;
+}
+#modeler #editData .flowgroup{position:relative;}
+#modeler #editData .flowgroup h4{display:none;}
+#modeler #editData .flowgroup li{padding:12px !important;}
+#modeler #editData li .ili.realinput{position:absolute; right:18px; top:8px;}
+#modeler #editData li[class^="mt"], #editData li[class*="mb"]{margin:0}
+#modeler #editData .slider-ui{position:absolute; top:4px; right:18px; margin-bottom:10px}
+#modeler #editData a{margin:8px;}
+
+#modeler .formfooter{padding:12px 0}
+#modeler .formfooter .inner{position:relative; margin:auto; max-width:1000px;}
+#modeler .formfooter .modeler-nav{float:right; margin-top:4px;}
+
+#modeler .formfooter .modeler-info{font-size:.8em;}
+#modeler .formfooter .modeler-info div{position:relative; float:left; margin:18px 28px 8px 0;}
+#modeler .formfooter .modeler-info div a{padding-left:30px; line-height:2em;}
+
+
+/* Determine Tax Rate Form */
+#determineTaxBracket form{font-size:.9em;}
+#determineTaxBracket form li{padding:8px 0;}
+#determineTaxBracket form li label{display:inline-block; padding:2px 0; font-weight:bold;}
+#determineTaxBracket form li select{height:31px;}
+#determineTaxBracket #rate{
+	display:inline; border:0; padding:0; margin-top:-2px; height:auto; width:auto;
+    font-size:2.4em; letter-spacing:-2px; font-weight:bold
+}
+
+/* Eligible Expense Calculator Page */
+.determineExpense{padding:24px 0;}
+.determineExpense #determineExpense-pg-total{padding:8px; background-color:#eee; border:solid 1px #ccc;}
+.determineExpense #determineExpense-pg-total h4{color:#333; font-weight:bold;}
+.determineExpense #determineExpense-pg-total div{ font-weight:bold; font-size:3.4em; color:#28c303;}
+
+/* Eligible Expense Calculator LB */
+#determineExpense h2 span{display:block; color:#333; font-size:70%; font-weight:normal;}
+#determineExpense fieldset{margin-bottom:2px; border:solid 1px #ccc; background-color:#555;  background-image:url('img/bgtile_wht.png')}
+#determineExpense fieldset h4{color:#288fe7; padding:8px 30px; cursor:pointer; background:transparent url('img/arrow_updn.png') 8px 11px no-repeat}
+#determineExpense fieldset h4:hover{background-color:#eee;}
+#determineExpense fieldset h4.active{background:#eee url('img/arrow_updn.png') 8px -40px no-repeat}
+#determineExpense fieldset > ol{display:none;}
+#determineExpense fieldset ol{padding:8px;}
+#determineExpense fieldset ol p{color:#888; font-size:80%; margin:8px 0 4px 0;}
+#determineExpense fieldset li{margin-bottom:8px; width:33%; float:left; display:block; padding:0;}
+#determineExpense fieldset li label{font-size:80%}
+#determineExpense fieldset li .ili input{width:50px;}
+
+
+/* TILE */
+.tile{float:left}
+.tile a{display:block; height:100%}
+.tile .content{min-height:100px; padding:16px}
+.tile .content h3{font-size:1.4em;}
+.tile .content p{font-size:1em;}
+
+
+/* ----------- IE8 Styles --------------------*/
+.ie8 .clueBtn{color: #fff !important; border-bottom: none;}
+.ie8 .go-top{background: #01232d;}
+
+
+@media only screen and (max-width: 980px ) {
+	#modeler form{min-height:240px;}
+    .tile .content h3{font-size:1.3em;}
+}
+
+@media only screen and (max-width: 780px ) {
+	#home .intro{width:100%;}
+	#home .intro h1{font-size:24px}
+	#home .intro p{font-size:.9em;}
+    
+    .tile .content p{font-size:.9em;}
+	#modeler form h4.flowMessage{width:auto; font-size:.9em; padding:6px 8px;}
+	#modeler form li#output #summary li{font-size:.95em; padding:8px 0;}
+	#modeler form .flowgroup .video{position:relative;}
+    #modeler .videobar{position:relative; padding:8px 8px 8px 80px; width:70%; right:auto; left:auto; top:auto; bottom:0; margin:24px auto 8px auto; background-size:30px;
+        -webkit-border-radius:8px; -moz-border-radius:8px; border-radius: 8px;
+    }
+	#modeler .videobar .vidplayer{display:none; margin:4px auto; width:90%; height:100%;}
+	#modeler .videobar .vidlink{display:block;}
+	#modeler .container{padding:0}
+	#modeler .formfooter{padding:8px;}
+	#modeler .formfooter .modeler-nav{float:none; margin:0 0 24px 0}
+	#modeler #resultSide .tile{float:none; width:100%; margin:0 0 12px 0}
+	#modeler #editData li .ili.realinput{position:relative; right:auto; top:auto;}
+	#modeler #editData .slider-ui{position:relative; top:auto; right:auto;}
+    #modeler form li{padding:8px 12px}
+	.w30{width:50%}
+}
+
+@media only screen and (max-width: 580px) {
+	h2{font-size:22px;}
+	section, header, footer{border-left:0; border-right:0}
+	header .container{padding:4px 10px}
+	header #logo img{height:22px}
+	.container{padding:10px}
+	#home .action{padding:10px 10px 0 10px;}
+	#home .intro h1{font-size:20px}
+    
+	#modeler form label{font-size:.9em;}
+	#modeler form li#output{padding:0 !important}
+    #modeler form li#output .output-top{padding:12px; margin-bottom:0;}
+    #modeler #output-graph{text-align:center; padding:24px 12px}
+    #modeler .ili a{display:inline-block; margin:0 0 12px 0;}
+    #modeler .formfooter .modeler-info{font-size:.7em; margin-top:54px}
+    
+	.tile a{margin-bottom:12px;}
+	.tile .content{padding:6px 16px;}
+	.trigger{text-align:center;}
+	.trigger a{width:80%; margin:8px auto 0 auto}
+    .w25{width:100%}
+	.w30{width:100%}
+	.w50{width:100%}
+	
+	/* remove all desktop margins */
+		/* starts with... */
+		*[class^="dt-m"]{margin:0}
+	
+		/* contains... */
+		/* *[class*="dt-m"]{margin:0} */
+    
+    footer #devby{margin-top:10px}
+    footer ul{float:none;}
+    footer ul li{margin:0 12px 0 0;}
+}
