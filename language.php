@@ -1,15 +1,16 @@
 <?php
 	
-	define("_site_title", "HSA Modeler");
-	define("_site_keyword", "HSA Modeler");
-	define("_site_description", "HSA Modeler");
+	define("_site_title", "Modeler");
+	define("_site_keyword", "Modeler");
+	define("_site_description", "Modeler");
 	
-	define("_home_intro_headline", "What a Health Savings Account (HSA) can do for you!");
-	define("_home_intro_paragraph", "Invest in your health, tax-free by setting aside money to pay qualified health care expenses today and in the future.");
+	define("_home_intro_headline", "a Health Savings Account (HSA) can do for you!");
+	define("_home_intro_paragraph", "qualified health care expenses today and in the future.");
 	
-	define("_slide1_text", "<a href='#moreinfo-q1' class='fancybox'><span class='question-ExLg'></span> Lorem ipsum dolor sit amet consectetur?</a>");
-	define("_slide2_text", "<a href='#moreinfo-q2' class='fancybox'><span class='question-ExLg'></span> Lorem ipsum dolor sit amet consectetur?</a>");
-	define("_slide3_text", "<a href='#moreinfo-q3' class='fancybox'><span class='question-ExLg'></span> How much can I contribute?</a>");
-    define("_slide4_text", "<a href='#moreinfo-q4' class='fancybox'><span class='question-ExLg'></span> Lorem ipsum dolor sit amet consectetur?</a>");
+	define("_slide1_text", "Coverage Level");
+	define("_slide2_text", "Contributions");
+	define("_slide3_text", "Withdrawals");
+    define("_slide4_text", "Interest, Holding Period, & Tax Rate");
+    define("_slideResult_text", "2016 Estimated HSA Account Growth");
 	
 ?>

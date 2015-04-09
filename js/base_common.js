@@ -9,8 +9,21 @@ $(document).ready(function () {
     $("input[type='text']").focus(function(){
         $(this).select()
     });
-		
-		
+    
+    // Get URL param
+    function getUrlParameter(sParam){
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        
+        for(i = 0; i < sURLVariables.length; i++){
+            var sParameterName = sURLVariables[i].split("=");
+            
+            if(sParameterName[0] === sParam){
+                return sParameterName[1];
+            }
+        }
+    }
+    
     /*
         ========================================
         ========================================
@@ -19,8 +32,13 @@ $(document).ready(function () {
         ========================================
     */
     if ($("#modeler").length) { // Run below only when HSA modeler exists
-
+        
         var form = $("#modeler form#modeler-hsa");
+        
+        // Apply Eligible Expense if option was checked from Calculator
+        if(getUrlParameter("expense")){
+            $("#withdraw", form).val(getUrlParameter("expense"));
+        }
 
         // Onload, hide all fields except the first flow.
         $(".flowgroup", form).not(".firstflow").hide();
@@ -70,7 +88,8 @@ $(document).ready(function () {
             }
             
             //nextGroup.fadeTo("slow", 1);
-            nextGroup.show("slide", { direction: "right" }, 300);
+            nextGroup.show("fade");
+            //nextGroup.show("slide", { direction: "right" }, 300);
 
             if ($(".calcReady").is(":visible")) {
                 $("#model-calc").show();
@@ -186,9 +205,8 @@ $(document).ready(function () {
         ========================================
         ========================================
     */
-
-
-
+    
+    
     // ================================================================================================================
     // START - Money functions (convert number into money and toggle between pay period and annual)
     Number.prototype.formatMoney = function (c, d, t) {
@@ -257,7 +275,23 @@ $(document).ready(function () {
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
+    
+    // Limit input to numeric only
+    function isNumberKey(evt){
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        return !(charCode > 31 && (charCode < 48 || charCode > 57));
+    }
+    
+    $("input[type='text']").keydown(function(){
+        return isNumberKey(event)
+    });
+    
+//    $("input[type='text']").blur(function(){
+//        var amt = parseInt(this.value);
+//        this.value = amt.formatMoney(0)
+//    });
+    
+    
 
     // ATTACH LIGHTBOX EVENT ==============================
     // Append input label description Lightbox call

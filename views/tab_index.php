@@ -1,10 +1,12 @@
 <section id="home">
-	<div class="container clearfix">
-		<div class="intro">
-			<h1><?php echo _home_intro_headline ?></h1>
-			<p><?php echo _home_intro_paragraph ?></p>
-		</div><!--/.intro-->
-	</div><!--/.container-->
+	<div class="banner">
+        <div class="container clearfix">
+            <div class="intro">
+                <h1><?php echo _home_intro_headline ?></h1>
+                <p><?php echo _home_intro_paragraph ?></p>
+            </div><!--/.intro-->
+        </div><!--/.container-->
+    </div><!--/.banner -->
 	
 	<div class="action">
 		<div class="container">
@@ -30,7 +32,7 @@
                 <a href="?section=modeler" class="dt-ml4">
                     <div class="content">
                         <h3>Ready to Estimate?</h3>
-                        <p>Model value of your HSA</p>
+                        <p>Model the value of your HSA</p>
                     </div>
                 </a>
             </div><!--/.tile-->

@@ -19,7 +19,7 @@ header{background-color:#f5f5f5; border-bottom:solid 1px #ddd}
 #home .action{background-image: url("img/mask_blk.png")}
 #about .infoblock{color:#333}
 #about .infoblock .label h2{color:#555}
-#about .infoblock{background-color:#fff; border-bottom:solid 1px #ccc;}
+#about .infoblock{background-color:#fff; border-bottom:solid 1px #ccc; padding-top:24px; padding-bottom:24px}
 #about .infoblock ul{margin-top:6px; list-style-image: url('img/bullet_check.png')}
 
 form select{
@@ -50,14 +50,14 @@ form select:hover{background-color:#f9f9f9 !important}
 #modeler form select{height:31px;}
 #modeler form input[type='text']{border:solid 1px #ccc; font-weight:bold; background-color:#f5f5f5}
 #modeler form input:hover{background:#f9f9f9}
-#modeler form li#output .outputwrapper .outputblock p{color:#999}
+#modeler form #output li .outputwrapper .outputblock p{color:#999}
 
 #modeler form input[readonly='readonly']{padding:0; margin-top:-12px; width:auto; max-width:60px; background:none; border:0;}
 #modeler form input[readonly='readonly']:hover{background:none;}
 
-#modeler form li#output .outputwrapper .outputblock.head{color:#000}
-#modeler form li#output .outputwrapper .outputblock.head p{color:#52b200;}
-#modeler form li#output .outputwrapper .outputdetail .outputblock{color:#555}
+#modeler form #output li .outputwrapper .outputblock.head{color:#000}
+#modeler form #output li .outputwrapper .outputblock.head p{color:#52b200;}
+#modeler form #output li .outputwrapper .outputdetail .outputblock{color:#000}
 
 /*#modeler #output-graph{background: transparent url('img/sample_graph_theme_dark.png') 100% 50% no-repeat}*/
 
@@ -123,33 +123,15 @@ form select:hover{background-color:#f9f9f9 !important}
 .tile.blue p{color:#c3e2fa}
 
 /*=============== SLIDER MOD =============== */
-.slider-ui{width:240px; margin:14px 8px 12px 8px;}
-.ui-slider .ui-slider-handle{height:1.5em; width:1.5em;}
-.ui-state-default, .ui-widget-content .ui-state-default{
-    cursor: pointer;
-    outline:0;
-    margin-top:-5px;
-    border-width:5px; border-color:#aaa; background:#82e81c; /* 6cd306 2993e4*/
-    -webkit-border-radius: 100%; 
-    -moz-border-radius: 100%; 
-    border-radius: 100%;
-}
-
-.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover{background:#9ff747;}
-
-.ui-widget-content{
-    border-width:1px; background:#f5f5f5;
-    border-color:#ccc;
-    -webkit-border-radius: 0; 
-    -moz-border-radius: 0; 
-    border-radius: 0;    
-}
+.ui-state-default, .ui-widget-content .ui-state-default{border-width:5px; border-color:#aaa; background:#82e81c}
+.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover{background:#9ff747}
+.ui-widget-content{border-width:1px; background:#f5f5f5;border-color:#ccc}
 .ui-widget-content:hover{ background:#f9f9f9}
 
 /* ============ Question mark button ============== */
 .question-Wht{position:relative; font-weight:normal; padding:2px; 
 	position:absolute; left:0; top:0;
-    display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#eee; font-size:19px; font-weight:normal; line-height:1.1em;
+    display:inline-block; margin:0 3px 0 0; text-align:center; width:20px; height:20px; color:#eee; font-size:19px; font-weight:normal; line-height:1.3em;
 	background-color:#288fe7;
 	-webkit-border-radius: 100%; 
 	-moz-border-radius: 100%;

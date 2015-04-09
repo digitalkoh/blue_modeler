@@ -24,10 +24,13 @@ table{border-collapse:collapse; border-spacing:0}
 .txt-up20p{font-size:120%;}
 .smalltxt{font-size:.9em !important;}
 .smallertxt{font-size:.85em !important;}
-.lbcontent h2{font-size:26px; font-weight:bold; margin-bottom:5px; padding-bottom:3px;}
+
+/* Lightbox content */
+.lbcontent h2{font-size:22px; font-weight:bold; margin-bottom:5px; padding-bottom:3px;}
 .lbcontent p{font-size:.9em; line-height:1.3em;}
 .lbcontent ul{margin:18px 0;}
 .lbcontent ul li{font-size:.9em; list-style:disc; margin:12px 0 0 24px;}
+.lbcontent .infoblock{margin-bottom:24px}
 
 .noborder{border:0 !important}
 .noborder-top{border-top:0 !important}
@@ -50,7 +53,6 @@ table{border-collapse:collapse; border-spacing:0}
 .ml5{margin-left:5px}
 .ml10{margin-left:10px}
 .ml15{margin-left:15px !important}
-
 .w25{width:25%;}
 .w30{width:30%;}
 .w50{width:50%}
@@ -71,72 +73,76 @@ section{position:relative; margin:0 auto; clear:both; float:none;}
 header{position:relative; margin:0 auto; clear:both; float:none;}
 header .container{padding:6px 24px;}
 
-#home{}
-#home .intro{width:50%; margin-bottom:12px;}
-#home .intro h1{font-size:30px; padding:24px 0 8px 0;}
+#home{position:relative}
+#home .banner .container{min-height:328px}
+#home .intro{width:55%; margin-bottom:12px;}
+#home .intro h1{font-size:28px; padding:24px 0 8px 0;}
 #home .intro p{line-height:1.2em; padding-bottom:18px;}
-#home .action{padding:24px}
+#home .action{position:absolute; bottom:0; width:100%; padding:18px 0}
 
 #about .container{padding:0;}
-#about .infoblock{font-size:.9em; margin-top:1px; padding:24px}
+#about .infoblock{font-size:.9em; margin-top:1px; padding:38px 24px}
 #about .infoblock ul li{margin-left:50px; padding:0;}
 #about .infoblock .label h2{font-size:1.6em;}
 #about .infoblock .info p{line-height:1.4em; padding-top:6px;}
 
-footer{margin-top:10px; font-size:12px;}
+footer{margin-top:10px; font-size:12px; padding:8px}
 footer .container{position:relative; max-width:1000px; margin:0 auto; clear:both; float:none;}
 footer #devby{margin-top:10px}
 footer #copyright{margin-top:4px}
 footer ul{float:right;}
 footer ul li{display:inline; margin-left:12px;}
-
 form input, form select{padding-left:3px; font-size:100%;}
+form input{text-align:right}
+form input.align-left{text-align:left}
 
 #modeler .container{padding:0 2px 0 2px;}
 #modeler form{font-size:.9em; min-height:300px; position:relative}
-#modeler form h4.flowMessage{font-weight:normal; font-size:1em; margin-top:1px; padding:14px 18px;}
+#modeler form h4.flowMessage{font-weight:bold; font-size:1.2em; margin-top:1px; padding:15px 18px}
 #modeler form label{font-size:1em; display:inline-block; padding:3px 0}
 #modeler form label.forReadonly{padding:0 8px 0 0; float:left; margin-top:3px;}
 #modeler form li{position:relative; width:auto; margin-top:1px; padding:18px 18px 22px 18px}
 #modeler form li li{background:none;}
 #modeler form li .ili a{font-size:90%;}
 #modeler form li .currency:before{font-size:110%; font-weight:bold; content:"$"}
-
 #modeler form input[readonly='readonly']{padding:0; margin-top:-12px; width:auto; max-width:60px; background:none; border:0;}
 #modeler form input[readonly='readonly']:hover{background:none;}
 #modeler form li.dualinput label{float:left; margin-right:12px; line-height:2em;}
 #modeler form li.dualinput label:after{content:":"}
-#modeler form li.dualinput .ili input{max-width:60px;}
-#modeler form li#output{position:relative;}
-#modeler form li#output .outputwrapper .outputblock div{font-size:1em;}
-#modeler form li#output .outputwrapper .outputblock.head div{font-size:3.5em; font-weight:bold; padding:0 0 12px 0;}
-#modeler form li#output .outputwrapper .outputblock p{font-size:.9em}
-#modeler form li#output .outputwrapper .outputblock.head p{font-size:1em; padding:0;}
-#modeler form li#output .output-top{margin:0 24px 28px 0; float:left;}
-
+#modeler form li.dualinput .ili input{max-width:70px;}
+#modeler form #output li{position:relative;}
+#modeler form #output li .outputwrapper .outputblock div{font-size:1em;}
+#modeler form #output li .outputwrapper .outputblock.head div{font-size:3.5em; font-weight:bold; padding:0 0 12px 0;}
+#modeler form #output li .outputwrapper .outputblock p{font-size:.85em; padding-bottom:6px}
+#modeler form #output li .outputwrapper .outputblock.head p{font-size:1em; padding:0;}
+#modeler form #output li .output-top{margin:0 24px 28px 0; float:left;}
 #modeler #output-graph{text-align:center; padding:0 24px 12px 24px}
 #modeler #output-graph img{max-width: 100%}
 
 #modeler form #model-output-cont{float:left; padding:0;}
 #modeler form #model-output-earning,
-#modeler form #model-output-taxsavings{float:left; padding-left:38px; background: transparent url('img/plus.png') 10px 50% no-repeat}
+#modeler form #model-output-taxsavings{float:left; padding-left:34px; background: transparent url('img/plus.png') 10px 50% no-repeat}
 
-#modeler form li#output #summary li{padding:0;}
-#modeler form li#output #summary li h3{font-weight:bold;}
-#modeler form li#output #summary li span{font-weight:bold;}
+#modeler form #output li #summary li{padding:0;}
+#modeler form #output li #summary li h3{font-weight:bold;}
+#modeler form #output li #summary li span{font-weight:bold;}
 #modeler form .flowgroup{min-width:100%;}
 
 #modeler .videobar{
     display:block;
     z-index:99;
-	position:absolute; right:12px; top:84px;
-    padding:26px 26px 26px 108px;
+	position:absolute; right:4px; top:9px;
+    padding:8px 12px;
     background-color:rgba(0, 0, 0, 0.63);
-    -webkit-border-radius: 45px; -moz-border-radius: 45px; border-radius: 45px;
-    background-image: url('img/icon_play.png');
+    -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;
+    background-image: url('img/icon_play_med.png');
     background-repeat:no-repeat;
-    background-position: 28px 50%;
+    background-size:28px;
+    background-position: 97% 50%;
 }
+#modeler .videobar h3{font-size:90%; padding-right:34px}
+#modeler .vidplayer img{width:100%} /* <----- TEMP for image placeholder only */
+
 #modeler #editData .flowgroup{position:relative;}
 #modeler #editData .flowgroup h4{display:none;}
 #modeler #editData .flowgroup li{padding:12px !important;}
@@ -144,15 +150,31 @@ form input, form select{padding-left:3px; font-size:100%;}
 #modeler #editData li[class^="mt"], #editData li[class*="mb"]{margin:0}
 #modeler #editData .slider-ui{position:absolute; top:4px; right:18px; margin-bottom:10px}
 #modeler #editData a{margin:8px;}
-
-#modeler .formfooter{padding:12px 0}
+#modeler .formfooter{padding:16px 8px}
 #modeler .formfooter .inner{position:relative; margin:auto; max-width:1000px;}
 #modeler .formfooter .modeler-nav{float:right; margin-top:4px;}
-
 #modeler .formfooter .modeler-info{font-size:.8em;}
 #modeler .formfooter .modeler-info div{position:relative; float:left; margin:18px 28px 8px 0;}
 #modeler .formfooter .modeler-info div a{padding-left:30px; line-height:2em;}
 
+/*=============== SLIDER MOD =============== */
+.ui-state-default, .ui-widget-content .ui-state-default{
+    cursor: pointer;
+    outline:0;
+    margin-top:-5px;
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    border-radius: 100%
+}
+
+.slider-ui{width:300px; margin:14px 8px 12px 8px}
+.ui-slider .ui-slider-handle{height:1.5em; width:1.5em}
+
+.ui-widget-content{
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    border-radius: 6px    
+}
 
 /* Determine Tax Rate Form */
 #determineTaxBracket form{font-size:.9em;}
@@ -180,7 +202,7 @@ form input, form select{padding-left:3px; font-size:100%;}
 #determineExpense fieldset ol{padding:8px;}
 #determineExpense fieldset ol p{color:#888; font-size:80%; margin:8px 0 4px 0;}
 #determineExpense fieldset li{margin-bottom:8px; width:33%; float:left; display:block; padding:0;}
-#determineExpense fieldset li label{font-size:80%}
+#determineExpense fieldset li label{padding-left:14px; font-size:80%}
 #determineExpense fieldset li .ili input{width:50px;}
 
 
@@ -200,6 +222,13 @@ form input, form select{padding-left:3px; font-size:100%;}
 @media only screen and (max-width: 980px ) {
 	#modeler form{min-height:240px;}
     .tile .content h3{font-size:1.3em;}
+    section#home .container, section#expense .container{padding-left:8px; padding-right:8px}
+    #home .banner .container{min-height:0}
+	#home .action{position:relative}
+}
+
+@media only screen and (max-width: 900px ) {
+    .slider-ui{width:240px}
 }
 
 @media only screen and (max-width: 780px ) {
@@ -209,13 +238,19 @@ form input, form select{padding-left:3px; font-size:100%;}
     
     .tile .content p{font-size:.9em;}
 	#modeler form h4.flowMessage{width:auto; font-size:.9em; padding:6px 8px;}
-	#modeler form li#output #summary li{font-size:.95em; padding:8px 0;}
+    #modeler form .flowgroup h4.flowMessage{padding-bottom:24px}
+    #modeler form h4.flowMessage.result{font-weight:bold; font-size:1em}
+	#modeler form #output li #summary li{font-size:.95em; padding:8px 0;}
 	#modeler form .flowgroup .video{position:relative;}
-    #modeler .videobar{position:relative; padding:8px 8px 8px 80px; width:70%; right:auto; left:auto; top:auto; bottom:0; margin:24px auto 8px auto; background-size:30px;
-        -webkit-border-radius:8px; -moz-border-radius:8px; border-radius: 8px;
+    
+    #modeler .videobar{
+        top:23px;
+        padding:4px 8px; background-size:20px;
     }
+    #modeler .videobar h3{float:right; padding-right:30px; font-size:80%}
 	#modeler .videobar .vidplayer{display:none; margin:4px auto; width:90%; height:100%;}
 	#modeler .videobar .vidlink{display:block;}
+    
 	#modeler .container{padding:0}
 	#modeler .formfooter{padding:8px;}
 	#modeler .formfooter .modeler-nav{float:none; margin:0 0 24px 0}
@@ -232,12 +267,12 @@ form input, form select{padding-left:3px; font-size:100%;}
 	header .container{padding:4px 10px}
 	header #logo img{height:22px}
 	.container{padding:10px}
-	#home .action{padding:10px 10px 0 10px;}
-	#home .intro h1{font-size:20px}
     
+	#home .intro h1{font-size:20px}
+    #home .action{padding:0}
 	#modeler form label{font-size:.9em;}
-	#modeler form li#output{padding:0 !important}
-    #modeler form li#output .output-top{padding:12px; margin-bottom:0;}
+	#modeler form #output li{padding:0 !important}
+    #modeler form #output li .output-top{padding:12px; margin-bottom:0;}
     #modeler #output-graph{text-align:center; padding:24px 12px}
     #modeler .ili a{display:inline-block; margin:0 0 12px 0;}
     #modeler .formfooter .modeler-info{font-size:.7em; margin-top:54px}

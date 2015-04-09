@@ -23,7 +23,7 @@
 				<li class="hide" id="determine-myrate">
 					<label>My Tax Rate:</label>
 					<div class="ili">
-						<input readonly="readonly" type="text" id="rate" />
+						<input class="align-left" readonly="readonly" type="text" id="rate" />
 					</div>
 				</li>
 				<li>

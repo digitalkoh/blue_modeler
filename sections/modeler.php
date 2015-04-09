@@ -4,12 +4,15 @@
 		<form action="" method="post" name="modeler-hsa" id="modeler-hsa">
 			<fieldset>
 				<ol>
-					<li id="output" class="noborder-top hide">
-						<div class="outputwrapper">
-							<?php include 'inc/inc_output_top.php' ?>
-							<?php include 'inc/inc_output_summary.php' ?>
-						</div><!-- /.outputwrapper-->
-					</li>
+					<div id="output" class="noborder-top hide">
+                        <h4 class="flowMessage result"><?php echo _slideResult_text ?></h4>
+                        <li>
+                            <div class="outputwrapper">
+                                <?php include 'inc/inc_output_top.php' ?>
+                                <?php include 'inc/inc_output_summary.php' ?>
+                            </div><!-- /.outputwrapper-->
+                        </li>
+                    </div>
 					
 					<div class="flowgroup firstflow" data-flowid=1>
 						<h4 class="flowMessage"><?php echo _slide1_text ?></h4>
@@ -30,7 +33,7 @@
                         <li id="lb-yourage" class="dualinput">
 							<label for="yourage">Your Age</label>
 							<div class="ili">
-								<input type="text" id="yourage" name="yourage" />
+								<input type="text" id="yourage" name="yourage" maxlength="3" />
 							</div>
 							<div class="clear"></div>
 							<!-- =========================== SLIDER ============================ -->
@@ -40,7 +43,7 @@
 									$( "#slider-yourage" ).slider({
 										value:0,
 										min: 18,
-										max: 75,
+										max: 100,
 										step: 1,
 										slide: function( event, ui ) {
 											$( "#yourage" ).val( ui.value );
@@ -63,10 +66,10 @@
 								<script>
 									if(navigator.userAgent.toLowerCase().indexOf("android") > -1) { // detect android true or false
 										// If Android 'true'
-										document.writeln('<input type="number" id="hsabalance" name="hsabalance" />'); 
+										document.writeln('<input  type="number" id="hsabalance" name="hsabalance" maxlength="7" value=0 />'); 
 									} else {
 										// If not Android 'false'
-										document.writeln('<input type="text" id="hsabalance" name="hsabalance" pattern="[0-9]*" />');	
+										document.writeln('<input  type="text" id="hsabalance" name="hsabalance" pattern="[0-9]*" maxlength="7" value=0 />');	
 									}
 								</script>
 							</div>
@@ -75,14 +78,14 @@
                         <li id="lb-companycont" class="readonly">
 							<label for="companycont" class="forReadonly">Annual Company Contribution:</label>
 							<div class="ili currency">
-								<input type="text" readonly="readonly" id="companycont" name="companycont" value="500" />
+								<input class="align-left" type="text" tabindex="-1" readonly="readonly" id="companycont" name="companycont" value="500" />
 							</div>
 						</li>
 						
 						<li id="lb-yourcont" class="dualinput">
 							<label for="yourcont">Your Annual Contribution</label>
 							<div class="ili currency">
-								<input type="text" id="yourcont" name="yourcont" />
+								<input  type="text" id="yourcont" name="yourcont" maxlength="5" />
 							</div>
 							<div class="clear"></div>
 							<!-- =========================== SLIDER ============================ -->
@@ -92,7 +95,7 @@
 									$( "#slider-yourcont" ).slider({
 										value:0,
 										min: 0,
-										max: 10000,
+										max: 99900,
 										step: 100,
 										slide: function( event, ui ) {
 											$( "#yourcont" ).val( ui.value );
@@ -114,7 +117,7 @@
                          <li id="lb-withdraw" class="dualinput">
 							<label for="withdraw">Estimated Annual Withdrawals</label>
 							<div class="ili currency">
-								<input type="text" id="withdraw" name="withdraw" /> <a href="#moreinfo-expense" class="fancybox-form ml15" id="activate-calc-exp">Calculate Eligible Expense</a>
+								<input type="text" id="withdraw" name="withdraw" maxlength="5" /> <a href="#moreinfo-expense" class="fancybox-form ml15" id="activate-calc-exp">Calculate Eligible Expense</a>
 							</div>
 							<div class="clear"></div>
 							<!-- =========================== SLIDER ============================ -->
@@ -128,7 +131,7 @@
 									$( "#slider-withdraw" ).slider({
 										value:val,
 										min: 0,
-										max: 10000,
+										max: 99900,
 										step: 100,
                                         highlight: true,
 										slide: function( event, ui ) {
@@ -147,9 +150,9 @@
 						<span class="caret"></span>
 						
 						<li id="lb-earning" class="dualinput">
-							<label for="earning">Annual Earnings</label>
+							<label for="earning">HSA Interest Rate</label>
 							<div class="ili">
-								<input type="text" id="earning" name="earning" /> <span class="inputtail">%</span>
+								<input  type="text" id="earning" name="earning" maxlength="2" /> <span class="inputtail">%</span>
 							</div>
 							<div class="clear"></div>
 							<!-- =========================== SLIDER ============================ -->
@@ -159,7 +162,7 @@
 									$( "#slider-earning" ).slider({
 										value:0,
 										min: 0,
-										max: 6,
+										max: 10,
 										step: 1,
 										slide: function( event, ui ) {
 											$( "#earning" ).val( ui.value );
@@ -174,7 +177,7 @@
 						<li id="lb-growth" class="dualinput">
 							<label for="growth">Account Growth</label>
 							<div class="ili">
-								<input type="text" id="growth" name="growth" /> <span class="inputtail">yrs.</span>
+								<input  type="text" id="growth" name="growth" maxlength="2" value=5 /> <span class="inputtail">yrs.</span>
 							</div>
 							<div class="clear"></div>
 							<!-- =========================== SLIDER ============================ -->
@@ -182,9 +185,9 @@
 							<script>
 								$(function() {
 									$( "#slider-growth" ).slider({
-										value:0,
-										min: 0,
-										max: 40,
+										value:5,
+										min: 1,
+										max: 25,
 										step: 1,
 										slide: function( event, ui ) {
 											$( "#growth" ).val( ui.value );
@@ -220,14 +223,13 @@
 					
 				</ol>			
 			</fieldset>
-			
+
 			<!-- IF HAS VIDEO -->
 			<?php if(_SET_VIDEO == 1){ ?>
-				<a href="#" class="videobar">
+				<a href="#video-1" class="videobar fancybox">
                     <h3><span>Need help?</span> Watch our video</h3>
-<!--					<div class="vidplayer"><img src="img/sample_vid_player_1.jpg" /></div>-->
-<!--					<div class="vidlink"><a class="bt rnd medBtn blkBtn" href="#"><span class="icon-video"></span>Play Video</a></div>-->
 				</a>
+                <div id="video-1" class="vidplayer hide"><img src="img/sample_vid_player_1.jpg" /></div>
 			<?php } ?>
 			<!-- / IF HAS VIDEO -->
 			
@@ -249,7 +251,7 @@
             <div class="modeler-info">
                 <p><strong>Note:</strong> This information will not be saved if you leave this site.</p>
                 <div><a href="#moreinfo-about" class="fancybox"><span class="question-Wht"></span> About this modeler</a></div>
-                <div><a href="?section=about"><span class="question-Wht"></span> Learn more about HSA.</a></div>
+                <div><a href="#moreinfo-learn" class="fancybox"><span class="question-Wht"></span> Learn more about HSA.</a></div>
             </div><!--/.modeler-info-->
         </div>
 		

@@ -17,7 +17,8 @@ footer a:hover{color:#999}
 
 section{background:#999 url('img/bgtile.png') 0 100% repeat-x;}
 header{background-color:#222;}
-#home{background:#fff url('img/img_home.jpg') 100% 0 no-repeat;}
+#home{background:#fff}
+#home .banner .container{background:transparent url('img/img_home.jpg') 100% 0 no-repeat;}
 #home .action{background-image: url("img/mask_blk.png")}
 #about .infoblock{background-color:rgba(0, 0, 0, 0.22)}
 #about .infoblock ul{margin-top:6px; list-style-image: url('img/bullet_check.png')}
@@ -46,15 +47,15 @@ form select:hover{background-color:rgba(255, 255, 255, 0.09) !important}
 
 #expense #determineExpense h2 span{display:block; color:#fff; font-size:70%; font-weight:normal;}
 #expense #determineExpense fieldset{margin-bottom:1px; border:solid 1px transparent; background-color:rgba(0, 0, 0, 0.22); background-image:none}
-#expense #determineExpense fieldset h4{color:#ebf5ff; padding:8px 30px; cursor:pointer; background:#12385d url('img/arrow_updn_lt.png') 8px 11px no-repeat;}
+#expense #determineExpense fieldset h4{color:#ebf5ff; padding:8px 30px; cursor:pointer; background:#12385d url('img/arrow_updn_org.png') 8px 11px no-repeat;}
 #expense #determineExpense fieldset h4:hover{background-color:#0c4071}
-#expense #determineExpense fieldset h4.active{background:#12385d url('img/arrow_updn_lt.png') 8px -40px no-repeat;}
+#expense #determineExpense fieldset h4.active{background:#12385d url('img/arrow_updn_org.png') 8px -40px no-repeat;}
 #expense #determineExpense fieldset > ol{display:none;}
-#expense #determineExpense fieldset ol{padding:8px;}
+#expense #determineExpense fieldset ol{padding:12px 8px 65px 8px;}
 #expense #determineExpense fieldset ol p{color:#95bfe6}
 #expense #determineExpense fieldset li{margin-bottom:8px; width:33%; float:left; display:block; padding:0;}
 #expense #determineExpense fieldset li label{font-size:80%}
-#expense #determineExpense fieldset li .ili input{width:50px;}
+#expense #determineExpense fieldset li .ili input{width:70px;}
 #expense #determineExpense form input[type='text'] {
     color:#fff;
     border: solid 1px rgba(255, 255, 255, 0.28);
@@ -69,13 +70,14 @@ form select:hover{background-color:rgba(255, 255, 255, 0.09) !important}
 #modeler label,
 #modeler form .inputtail,
 #modeler form li .currency:before{color:#fff}
+#modeler form select option{color:#000}
 #modeler form h4.flowMessage{background-color:rgba(0, 0, 0, 0.50)}
 #modeler form li{border-top:1px rgba(11, 121, 204, 0.74) solid}
 #modeler form input{background-color:#fff; border:1px solid #ccc; height:28px}
 #modeler form select{background-color:#fff; border:1px solid #ccc; height:31px;}
 #modeler form input[type='text']{border:solid 1px rgba(255, 255, 255, 0.28); font-weight:bold; background-color:rgba(255, 255, 255, 0.14)}
 #modeler form input:hover{background:rgba(255, 255, 255, 0.09)}
-#modeler form li#output .outputwrapper .outputblock p{color:#6cbefd}
+#modeler form #output li .outputwrapper .outputblock p{color:#6cbefd}
 
 #modeler form input[readonly='readonly']{padding:0; margin-top:-12px; width:auto; max-width:60px; background:none; border:0;}
 #modeler form input[readonly='readonly']:hover{background:none;}
@@ -85,9 +87,9 @@ form select:hover{background-color:rgba(255, 255, 255, 0.09) !important}
 #modeler form h4.flowMessage a:hover, .flowMessage a:active{color:#eee}
 #modeler form h4.flowMessage a:hover span[class*="question-"]{background-color:#eee}
 
-#modeler form li#output .outputwrapper .outputblock.head{color:#fff}
-#modeler form li#output .outputwrapper .outputblock.head p{color:#73d91c;}
-#modeler form li#output .outputwrapper .outputdetail .outputblock{color:#fff}
+#modeler form #output li .outputwrapper .outputblock.head{color:#fff}
+#modeler form #output li .outputwrapper .outputblock.head p{color:#73d91c;}
+#modeler form #output li .outputwrapper .outputdetail .outputblock{color:#fff}
 
 #modeler .formfooter .modeler-info p{color:#ddd;}
 #modeler .formfooter .modeler-info div a{color:#888;}
@@ -95,7 +97,7 @@ form select:hover{background-color:rgba(255, 255, 255, 0.09) !important}
 #modeler .formfooter .modeler-info div a:hover span[class*="question-"]{background-color:#aaa}
 
 #modeler .videobar{background-color:rgba(0, 0, 0, 0.63)}
-#modeler .videobar:hover{background-color:rgba(0, 0, 0, 0.40)}
+#modeler .videobar:hover{background-color:rgb(56, 52, 52)}
 #modeler .videobar h3{color:#48b0ff}
 #modeler .videobar h3 span{color:#fff}
 #modeler .formfooter{border-top:solid 1px #304a7c; background-color:rgba(0, 0, 0, 0.27)}
@@ -151,29 +153,12 @@ form select:hover{background-color:rgba(255, 255, 255, 0.09) !important}
 .tile.blue p{color:#c3e2fa}
 
 /*=============== SLIDER MOD =============== */
-.slider-ui{width:240px; margin:14px 8px 12px 8px;}
-.ui-slider .ui-slider-handle{height:1.5em; width:1.5em;}
-.ui-state-default, .ui-widget-content .ui-state-default{
-    cursor: pointer;
-    outline:0;
-    margin-top:-5px;
-    border-width:5px; border-color:#fff; background:#6cd306; /* 6cd306 2993e4*/
-    -webkit-border-radius: 100%; 
-    -moz-border-radius: 100%; 
-    border-radius: 100%;
-}
-.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover{background:#82e81c;}
-
-.ui-widget-content{
-    border-width:1px; background:rgba(255, 255, 255, 0.14);
-    border-color:rgba(255, 255, 255, 0.28);
-    -webkit-border-radius: 0; 
-    -moz-border-radius: 0; 
-    border-radius: 0;    
-}
+.ui-state-default, .ui-widget-content .ui-state-default{border-width:5px; border-color:#fff; background:#6cd306}
+.ui-state-default:hover, .ui-widget-content:hover .ui-state-default:hover{background:#82e81c}
+.ui-widget-content{border-width:1px; background:rgba(255, 255, 255, 0.14); border-color:rgba(255, 255, 255, 0.28)}
 .ui-widget-content:hover{ background:rgba(255, 255, 255, 0.09)}
 
 
 @media only screen and (max-width: 780px ) {
-	#home{background:#fff url("img/tile_slash.png") 0 -20px repeat-x}
+	#home .banner .container{background:#fff url("img/tile_slash.png") 0 -20px repeat-x}
 }

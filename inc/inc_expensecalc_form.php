@@ -2,23 +2,23 @@
 		<fieldset>
             <h4>Medical</h4>
 			<ol>
-                <p>deductible, copays or coinsurance</p>
+                <p>Deductible, Co-Pays and/or Co-Insurance</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
             </ol>
@@ -30,19 +30,19 @@
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
             </ol>
@@ -51,43 +51,43 @@
         <fieldset>
             <h4>Dental</h4>
 			<ol>
-                <p>deductible, copays or coinsurance</p>
+                <p>Deductible, Co-Pays and/or Co-Insurance</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <div class="clear mb15"></div>
-                <p>exams, fillings, etc.<br>(If you're not covered by a dental plan)</p>
+                <p>Exams, Fillings, etc. (If not covered by a dental plan.)</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
             </ol>
@@ -96,24 +96,24 @@
         <fieldset>
             <h4>Vision</h4>
 			<ol>
-                <p>exams, glasses, contacts</p>
+                <p>Exams, Glasses, Contacts</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
@@ -123,25 +123,25 @@
         <fieldset>
             <h4>Hearing</h4>
 			<ol>
-                <p>exams, hearing aids</p>
+                <p>Exams, Hearing Aids</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
@@ -151,25 +151,25 @@
         <fieldset>
             <h4>Other Eligible Health Care</h4>
 			<ol>
-                <p>acupuncture, chiropractic care, mileage, medically necessary personal items, etc.</p>
+                <p>Acupuncture, Chiropractic Care, Mileage, Medically Necessary Personal Items, etc.</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
                 <li class="addfam-add">
                     <label>Spouse</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
                 <li class="addfam-add">
                     <label>Children</label>
                     <div class="ili">
-					   $ <input name="exp" type="text" value=0 />
+					   $ <input name="exp" type="text" value=0 maxlength="7" />
                     </div>
                     
 				</li>
