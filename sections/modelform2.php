@@ -15,18 +15,18 @@
 								
 									<div class="outputsection">
 										<div class="outputblock" id="model-output-estimated">
-											<p>Estimated Value</p>
+											<p>Text</p>
 											<div class="txt-green">$387,670.54</div>
 										</div>
 										
 										<div class="outputdetail">
 											<div class="outputblock" id="model-output-cont">
-												<p>Total Contributions</p>
+												<p>Text</p>
 												<div>$230,000.00</div>
 											</div>
 											
 											<div class="outputblock" id="model-output-earning">
-												<p>Earnings</p>
+												<p>Text</p>
 												<div>$149,000.98</div>
 											</div>
 										</div><!-- /.outputdetail-->
@@ -35,13 +35,13 @@
 									
 									<div id="taxoutput" class="outputsection taxrelated">
 										<div class="outputblock" id="model-output-total">
-											<p>Total Potential Value</p>
+											<p>Text</p>
 											<div class="txt-green">$429,990.12</div>
 										</div>
 										
 										<div class="outputdetail">
 											<div class="outputblock" id="model-output-taxsavings">
-												<p>Estimated Tax Savings</p>
+												<p>Text</p>
 												<div>$38,800.70</div>
 											</div>
 										</div><!-- /.outputdetail-->
@@ -51,20 +51,20 @@
 									
 									<div id="summary">
 										<ul>
-											<li>Your Coverage Level: <span id="sum-coveragecategory"></span><a class="editIcon"></a></li>
-											<li>Current HSA Balance: <span id="sum-hsabalance"></span><a class="editIcon"></a></li>
-											<li>Annual Company Contribution: <span id="sum-companycont"></span><a class="editIcon"></a></li>
-											<li>Your Annual Contribution: <span id="sum-yourcont"></span><a class="editIcon"></a></li>
-											<li>Your Catch-up Contribution: <span id="sum-catchup"></span><a class="editIcon"></a></li>
-											<li>Estimated Annual Withdrawals: <span id="sum-withdraw"></span><a class="editIcon"></a></li>
-											<li>Annual Earnings on Account: <span id="sum-earning"></span><a class="editIcon"></a></li>
-											<li>Years of Account Growth: <span id="sum-growth"></span><a class="editIcon"></a></li>
+											<li>Text: <span id="sum-coveragecategory"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-hsabalance"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-companycont"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-yourcont"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-catchup"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-withdraw"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-earning"></span><a class="editIcon"></a></li>
+											<li>Text : <span id="sum-growth"></span><a class="editIcon"></a></li>
 											<li class="dark">
-												<a class="moreInfoIcon infront"></a><strong>Want to see tax savings on your contributions?</strong> 
+												<a class="moreInfoIcon infront"></a><strong>Text?</strong> 
 												<a style="float:right; margin-right:4px;" href="#" id="showtax" class="bt blueBtn smBtn">Show</a>
 											</li>
 											<li class="taxrelated dark">
-												<a class="moreInfoIcon infront"></a>Marginal Tax Rate: 
+												<a class="moreInfoIcon infront"></a>Text: 
 												<select id="taxrate" name="taxrate">
 													<option value="10">10%</option>
 													<option value="15">15%</option>
@@ -83,17 +83,13 @@
 							
 							<div class="flowgroup firstflow" id="lb-coveragecategory">
 								<li>
-									<label for="coveragecategory">Your Coverage Level</label>
+									<label for="coveragecategory">Text</label>
 									<div class="ili">
 										<select id="coveragecategory" name="coveragecategory">
 											<option value="1" selected="selected">You Only</option>
 											<option value="2">You + Spouse</option>
 											<option value="3">You + Child(ren)</option>
 											<option value="4">You + Family</option>
-											<option value="5">You (age 55+) Only</option>
-											<option value="6">You (age 55+) + Spouse</option>
-											<option value="7">You (age 55+) + Child(ren)</option>
-											<option value="8">You (age 55+) + Family</option>
 										</select>
 									</div>
 									<a href="#" class="bt blueBtn lbbt recalc">Recalculate</a> 
@@ -103,7 +99,7 @@
 							
 							<div class="flowgroup" id="lb-hsabalance">
 								<li>
-									<label for="hsabalance">Current HSA Balance <a class="moreInfoIcon"></a> </label>
+									<label for="hsabalance">Text <a class="moreInfoIcon"></a> </label>
 									<div class="ili currency">
 										<input type="text" id="hsabalance" name="hsabalance" />
 									</div>
@@ -114,7 +110,7 @@
 							
 							<div class="flowgroup" id="lb-companycont">
 								<li>
-									<label for="companycont">Annual Company Contribution <a class="moreInfoIcon"></a> </label>
+									<label for="companycont">Text <a class="moreInfoIcon"></a> </label>
 									<div class="ili currency">
 										<input type="text" id="companycont" name="companycont" />
 									</div>
@@ -125,7 +121,7 @@
 							
 							<div class="flowgroup" id="lb-yourcont">
 								<li>
-									<label for="yourcont">Your Annual Contribution <a class="moreInfoIcon"></a></label>
+									<label for="yourcont">Text <a class="moreInfoIcon"></a></label>
 									<div class="ili currency">
 										<input type="text" id="yourcont" name="yourcont" />
 									</div>
@@ -136,7 +132,7 @@
 							
 							<div class="flowgroup" id="lb-catchup">
 								<li>
-									<label for="catchup">Your Catch-up Contribution <a class="moreInfoIcon"></a></label>
+									<label for="catchup">Text <a class="moreInfoIcon"></a></label>
 									<div class="ili currency">
 										<input type="text" id="catchup" name="catchup" />
 									</div>
@@ -147,7 +143,7 @@
 							
 							<div class="flowgroup" id="lb-withdraw">
 								<li>
-									<label for="withdraw">Estimated Annual Withdrawals <a class="moreInfoIcon"></a></label>
+									<label for="withdraw">Text <a class="moreInfoIcon"></a></label>
 									<div class="ili currency">
 										<input type="text" id="withdraw" name="withdraw" />
 									</div>
@@ -158,7 +154,7 @@
 								
 							<div class="flowgroup" id="lb-earning">
 								<li>
-									<label for="earning">Annual Earnings on Account <a class="moreInfoIcon"></a> </label>
+									<label for="earning">Text <a class="moreInfoIcon"></a> </label>
 									<div class="ili percent">
 										<select id="earning" name="earning">
 											<option value="0">0%</option>
@@ -177,7 +173,7 @@
 							
 							<div class="flowgroup calcReady" id="lb-growth">
 								<li>
-									<label for="growth">Years of Account Growth <a class="moreInfoIcon"></a> </label>
+									<label for="growth">Text <a class="moreInfoIcon"></a> </label>
 									<div class="ili">
 										<select id="growth" name="growth">
 											<script>
@@ -196,7 +192,7 @@
 							
 							<div class="flowgroup pauseflow taxgroup">
 								<li>
-									<label>Tax Savings on Your Contributions <a class="moreInfoIcon"></a></label>
+									<label>Text <a class="moreInfoIcon"></a></label>
 									<div class="ili">
 										<a href="#" id="showtax" class="blueBtn smBtn">Show</a>
 									</div>
@@ -218,9 +214,9 @@
 				</div><!--/.formnav-->
 				
 					<div id="modelerinfo">
-						<p><strong>Note:</strong> This information will not be saved if you leave this site.</p>
-						<div><a href="#"><span class="questionLg"></span> About this modeler</a></div>
-						<div><a href="?section=learn"><span class="questionLg"></span> Learn more about HSA.</a></div>
+						<p><strong>Note:</strong> Text.</p>
+						<div><a href="#"><span class="questionLg"></span> Text</a></div>
+						<div><a href="?section=learn"><span class="questionLg"></span> Text.</a></div>
 					</div><!--/#learnmore-->
 				
 				<div class="clear"></div>

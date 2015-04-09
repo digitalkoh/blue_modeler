@@ -1,8 +1,8 @@
 
 		<fieldset>
-            <h4>Medical</h4>
+            <h4>Text</h4>
 			<ol>
-                <p>Deductible, Co-Pays and/or Co-Insurance</p>
+                <p>Text</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
@@ -25,7 +25,7 @@
         </fieldset>
         
         <fieldset>
-            <h4>Prescription Drugs</h4>
+            <h4>Text</h4>
 			<ol>
                 <li class="default-add">
 					<label>You</label>
@@ -49,9 +49,9 @@
         </fieldset>
         
         <fieldset>
-            <h4>Dental</h4>
+            <h4>Text</h4>
 			<ol>
-                <p>Deductible, Co-Pays and/or Co-Insurance</p>
+                <p>Text</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
@@ -71,7 +71,7 @@
                     </div>
 				</li>
                 <div class="clear mb15"></div>
-                <p>Exams, Fillings, etc. (If not covered by a dental plan.)</p>
+                <p>Text</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
@@ -94,9 +94,9 @@
         </fieldset>
         
         <fieldset>
-            <h4>Vision</h4>
+            <h4>Text</h4>
 			<ol>
-                <p>Exams, Glasses, Contacts</p>
+                <p>Text</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
@@ -121,9 +121,9 @@
         </fieldset>
         
         <fieldset>
-            <h4>Hearing</h4>
+            <h4>Text</h4>
 			<ol>
-                <p>Exams, Hearing Aids</p>
+                <p>Text</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">
@@ -149,9 +149,9 @@
         </fieldset>
         
         <fieldset>
-            <h4>Other Eligible Health Care</h4>
+            <h4>Text</h4>
 			<ol>
-                <p>Acupuncture, Chiropractic Care, Mileage, Medically Necessary Personal Items, etc.</p>
+                <p>Text.</p>
                 <li class="default-add">
 					<label>You</label>
                     <div class="ili">

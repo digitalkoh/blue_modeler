@@ -19,19 +19,16 @@
 						<span class="caret"></span>
 						
 						<li id="lb-coveragecategory" class="dualinput">
-							<label for="coveragecategory">Your Coverage Level</label>
+							<label for="coveragecategory">Text</label>
 							<div class="ili">
 								<select id="coveragecategory" name="coveragecategory">
 									<option value="1" selected="selected">You Only</option>
-									<option value="2">You + Spouse</option>
-									<option value="3">You + Child(ren)</option>
-									<option value="4">You + Family</option>
 								</select>
 							</div>
 						</li>
 						
                         <li id="lb-yourage" class="dualinput">
-							<label for="yourage">Your Age</label>
+							<label for="yourage">Text</label>
 							<div class="ili">
 								<input type="text" id="yourage" name="yourage" maxlength="3" />
 							</div>
@@ -61,7 +58,7 @@
 						<span class="caret"></span>
                         
                         <li id="lb-hsabalance" class="dualinput">
-							<label for="hsabalance">Current HSA Balance</label>
+							<label for="hsabalance">Text</label>
 							<div class="ili currency">
 								<script>
 									if(navigator.userAgent.toLowerCase().indexOf("android") > -1) { // detect android true or false
@@ -76,14 +73,14 @@
 						</li>
                         
                         <li id="lb-companycont" class="readonly">
-							<label for="companycont" class="forReadonly">Annual Company Contribution:</label>
+							<label for="companycont" class="forReadonly">Text:</label>
 							<div class="ili currency">
 								<input class="align-left" type="text" tabindex="-1" readonly="readonly" id="companycont" name="companycont" value="500" />
 							</div>
 						</li>
 						
 						<li id="lb-yourcont" class="dualinput">
-							<label for="yourcont">Your Annual Contribution</label>
+							<label for="yourcont">Text</label>
 							<div class="ili currency">
 								<input  type="text" id="yourcont" name="yourcont" maxlength="5" />
 							</div>
@@ -115,7 +112,7 @@
 						<span class="caret"></span>
 						
                          <li id="lb-withdraw" class="dualinput">
-							<label for="withdraw">Estimated Annual Withdrawals</label>
+							<label for="withdraw">Text</label>
 							<div class="ili currency">
 								<input type="text" id="withdraw" name="withdraw" maxlength="5" /> <a href="#moreinfo-expense" class="fancybox-form ml15" id="activate-calc-exp">Calculate Eligible Expense</a>
 							</div>
@@ -150,7 +147,7 @@
 						<span class="caret"></span>
 						
 						<li id="lb-earning" class="dualinput">
-							<label for="earning">HSA Interest Rate</label>
+							<label for="earning">Text</label>
 							<div class="ili">
 								<input  type="text" id="earning" name="earning" maxlength="2" /> <span class="inputtail">%</span>
 							</div>
@@ -175,7 +172,7 @@
 						</li>
 						
 						<li id="lb-growth" class="dualinput">
-							<label for="growth">Account Growth</label>
+							<label for="growth">Text</label>
 							<div class="ili">
 								<input  type="text" id="growth" name="growth" maxlength="2" value=5 /> <span class="inputtail">yrs.</span>
 							</div>
@@ -201,7 +198,7 @@
 						
                         <li id="lb-taxrate" class="dualinput">
                             
-                            <label for="taxrate">Marginal Tax Rate</label>
+                            <label for="taxrate">Text</label>
                             <div class="ili">
                                 <select id="taxrate" name="taxrate">
                                     <option value="10">10%</option>
@@ -214,7 +211,7 @@
                                 </select>
                                 
                                 <!-- TODO: ADD resreset form on re-open -->
-                                <a href="#moreinfo-determine" id="determine" class="fancybox-form ml15">Find Your Tax Bracket</a>
+                                <a href="#moreinfo-determine" id="determine" class="fancybox-form ml15">Text</a>
                                 
                             </div>
                             
@@ -249,9 +246,9 @@
             </div><!--/.modeler-nav-->
 
             <div class="modeler-info">
-                <p><strong>Note:</strong> This information will not be saved if you leave this site.</p>
-                <div><a href="#moreinfo-about" class="fancybox"><span class="question-Wht"></span> About this modeler</a></div>
-                <div><a href="#moreinfo-learn" class="fancybox"><span class="question-Wht"></span> Learn more about HSA.</a></div>
+                <p><strong>Note:</strong> TextText</p>
+                <div><a href="#moreinfo-about" class="fancybox"><span class="question-Wht"></span> Text</a></div>
+                <div><a href="#moreinfo-learn" class="fancybox"><span class="question-Wht"></span> Text.</a></div>
             </div><!--/.modeler-info-->
         </div>
 		

@@ -1,7 +1,7 @@
 <div id="determineExpense">
 
-	<h2>Eligible Expense Calculator
-        <span>Enter annual amounts</span>
+	<h2>Text
+        <span>Text</span>
     </h2>
     
     <form name="expenseCalc" id="expenseCalc">

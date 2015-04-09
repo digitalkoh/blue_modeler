@@ -21,23 +21,19 @@
 								</h4>
 									
 								<li id="lb-coveragecategory">
-									<label for="coveragecategory">Your Coverage Level:</label>
+									<label for="coveragecategory">Text:</label>
 									<div class="ili realinput">
 										<select id="coveragecategory" name="coveragecategory">
 											<option value="1" selected="selected">You Only</option>
 											<option value="2">You + Spouse</option>
 											<option value="3">You + Child(ren)</option>
 											<option value="4">You + Family</option>
-											<option value="5">You (age 55+) Only</option>
-											<option value="6">You (age 55+) + Spouse</option>
-											<option value="7">You (age 55+) + Child(ren)</option>
-											<option value="8">You (age 55+) + Family</option>
 										</select>
 									</div>
 								</li>
 								
 								<li id="lb-hsabalance" class="mt20">
-									<label for="hsabalance">Current HSA Balance:</label>
+									<label for="hsabalance">Text:</label>
 									<div class="ili currency realinput">
 										<script>
 											if(navigator.userAgent.toLowerCase().indexOf("android") > -1) { // detect android true or false
@@ -68,14 +64,14 @@
 								</h4>
 								
 								<li id="lb-companycont" class="readonly mb30">
-									<label for="companycont" class="forReadonly">Annual Company Contribution:</label>
+									<label for="companycont" class="forReadonly">Text:</label>
 									<div class="ili currency">
 										<input type="text" id="companycont" readonly="readonly" name="companycont" value="500" />
 									</div>
 								</li>
 								
 								<li id="lb-yourcont" class="mt20">
-									<label for="yourcont" class="forReadonly">Your Annual Contribution:</label>
+									<label for="yourcont" class="forReadonly">Text:</label>
 									<div class="ili currency">
 										<input type="text" readonly="readonly" id="yourcont" name="yourcont" />
 									</div>
@@ -100,7 +96,7 @@
 								</li>
 								
 								<li id="lb-catchup" class="mt20">
-									<label for="catchup" class="forReadonly">Your Catch-up Contribution:</label>
+									<label for="catchup" class="forReadonly">Text:</label>
 									<div class="ili currency">
 										<input type="text" readonly="readonly" id="catchup" name="catchup" />
 									</div>
@@ -141,7 +137,7 @@
 								</h4>
 								
 								<li id="lb-withdraw">
-									<label for="withdraw" class="forReadonly">Estimated Annual Withdrawals:</label>
+									<label for="withdraw" class="forReadonly">Text:</label>
 									<div class="ili currency">
 										<input type="text" readonly="readonly" id="withdraw" name="withdraw" />
 									</div>
@@ -166,7 +162,7 @@
 								</li>
 								
 								<li id="lb-earning" class="mt20">
-									<label for="earning" class="forReadonly">Annual Earnings on Account:</label>
+									<label for="earning" class="forReadonly">Text:</label>
 									<div class="ili">
 										<input style="width:24px" type="text" readonly="readonly" id="earning" name="earning" /> %
 									</div>
@@ -191,7 +187,7 @@
 								</li>
 								
 								<li id="lb-growth" class="mt20">
-									<label for="growth" class="forReadonly">Years of Account Growth:</label>
+									<label for="growth" class="forReadonly">Text:</label>
 									<div class="ili">
 										<input type="text" readonly="readonly" id="growth" name="growth" />
 									</div>

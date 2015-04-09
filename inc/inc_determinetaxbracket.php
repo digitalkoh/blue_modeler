@@ -1,10 +1,10 @@
 <div id="determineTaxBracket">
-	<h2>Determine Your Tax Rate</h2>
+	<h2>Text</h2>
 	<form name="determineTaxBracketForm" id="determineTaxBracketForm">
 		<fieldset>
 			<ol>
 				<li>
-					<label>Filing Status:</label>
+					<label>Text:</label>
 					<div class="ili">
 						<input type="radio" name="filing" value="1" onchange="change_filing()">&nbsp;Single<br>
 						<input type="radio" name="filing" value="2" onchange="change_filing()">&nbsp;Married Filing Joint<br>
@@ -13,7 +13,7 @@
 					</div>
 				</li>
 				<li class="hide" id="determine-income">
-					<label>Taxable Income:</label>
+					<label>Text:</label>
 					<div class="ili">
 						<select onchange="pop_rate()" id="income">
 							<option value="0">Select</option>
@@ -21,7 +21,7 @@
 					</div>
 				</li>
 				<li class="hide" id="determine-myrate">
-					<label>My Tax Rate:</label>
+					<label>Text:</label>
 					<div class="ili">
 						<input class="align-left" readonly="readonly" type="text" id="rate" />
 					</div>

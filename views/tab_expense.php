@@ -1,8 +1,8 @@
 <section id="expense">
 	<div class="container determineExpense" id="determineExpense">
 			
-		<h2>Eligible Expense Calculator
-        <span>Enter Annual Amounts</span>
+		<h2>Text
+        <span>Text</span>
         </h2>
 
         <form name="expenseCalc" id="expenseCalc">

@@ -13,8 +13,8 @@
             <div class="tile blue w25">
                 <a href="?section=about" class="dt-mr4">
                     <div class="content">
-                        <h3>What is an HSA?</h3>
-                        <p>Learn the details.</p>
+                        <h3>Text?</h3>
+                        <p>Text.</p>
                     </div>
                 </a>
             </div><!--/.tile-->
@@ -22,7 +22,7 @@
              <div class="tile blue w25">
                 <a href="?section=expense" class="dt-mr4 dt-ml4">
                     <div class="content">
-                        <h3>Estimate Eligible Expenses</h3>
+                        <h3>Text</h3>
                         <p></p>
                     </div>
                 </a>
@@ -31,8 +31,8 @@
             <div class="tile blue w25">
                 <a href="?section=modeler" class="dt-ml4">
                     <div class="content">
-                        <h3>Ready to Estimate?</h3>
-                        <p>Model the value of your HSA</p>
+                        <h3>Text?</h3>
+                        <p>Text</p>
                     </div>
                 </a>
             </div><!--/.tile-->

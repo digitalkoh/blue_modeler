@@ -2,23 +2,23 @@
 <div class="output-top">	
 	<div class="outputsection">
 		<div class="outputblock head" id="model-output-estimated">
-			<p class="txt120p">Total Potential HSA Account Value</p>
+			<p class="txt120p">TextText</p>
 			<div>$429,990.12</div>
 		</div>
 		
 		<div class="outputdetail">
 			<div class="outputblock" id="model-output-cont">
-				<p>Total <br>Contributions</p>
+				<p>Total <br>TextTextText</p>
 				<div>$230,000.00</div>
 			</div>
 			
 			<div class="outputblock" id="model-output-earning">
-				<p>Earned <br>Interest</p>
+				<p>Text <br>Text</p>
 				<div>$149,000.98</div>
 			</div>
             
             <div class="outputblock" id="model-output-taxsavings">
-				<p>Estimated <br>Pre-Tax Savings</p>
+				<p>Text <br>Text</p>
 				<div>$38,800.70</div>
 			</div> 
 		</div><!-- /.outputdetail-->
